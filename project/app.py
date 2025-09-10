@@ -53,7 +53,7 @@ def save_data():
 
     # Save to file
     try:
-        file_path = 'D:/Btech/Coding/Btech Python/project/user_data.txt'
+        file_path = 'D:/Btech/Coding/python-Project/project/user_data.txt'
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
         with open(file_path, 'a') as file:
             file.write(f"Name: {name}, Age: {age}\n")
